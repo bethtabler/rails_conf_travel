@@ -6,5 +6,6 @@ FactoryGirl.define do
     name "MyString"
     description "MyText"
     price 1.5
+    api_id "abc123"
   end
 end

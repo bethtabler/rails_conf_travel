@@ -21,7 +21,8 @@ Hotel.create!(
   :trip => $TRIPS[:mayflower],
   :name => "Deluxe Suite",
   :description => "A luxury suite. On the Mayflower. Really.",
-  :price => 500
+  :price => 500,
+  :api_id => "abc123"
 )
 
 Hotel.create!(

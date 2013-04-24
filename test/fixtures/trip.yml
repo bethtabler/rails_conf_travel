@@ -1,0 +1,11 @@
+my_birthday:
+  activity: Watching Things
+  description: The day of Noel's Birth
+  end_date: "Jan 24, 1971"
+  image_name: baby.png
+  location: "Illinois"
+  name: "Watch Noel's Birthday"
+  price: 200
+  start_date: "Jan 22, 1971"
+  tag_line: "Why"
+
