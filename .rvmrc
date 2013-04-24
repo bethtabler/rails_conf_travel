@@ -1,1 +1,1 @@
-rvm use 2.0.0@rails_conf_travel --create
+rvm use 1.9.3@rails_conf_travel --create
