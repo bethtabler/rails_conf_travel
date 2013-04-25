@@ -2,7 +2,7 @@ class HotelStay
 
   attr_accessor :hotel, :length_of_stay, :availablity_checker, :start_of_stay
 
-  def initialize(hotel, length_of_stay: 0, start_of_stay: nil)
+  def initialize(hotel, length_of_stay = 0, start_of_stay = nil)
     @hotel = hotel
     @length_of_stay = length_of_stay
     @start_of_stay = Date.parse(start_of_stay) if start_of_stay
