@@ -5,7 +5,7 @@ describe Purchase do
   describe "pricing" do
     let(:trip) { FactoryGirl.create(:trip, price: 200) }
 
-    it "can calculate price given a trip and a hotel" do
+    it "can calculate price given a trip" do
       purchase = Purchase.new(trip)
       expect(purchase.pre_tax_total).to eq(200)
     end
